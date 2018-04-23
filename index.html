@@ -1,0 +1,168 @@
+</!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kitchen Demo</title>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- POPPER JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="public/css/kitchen_demo.css">
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <div id="header">     
+            <div class="container">
+                <div id="storeLogo">
+                    <a href="http://everthreadsandbox.com">
+                        <img src="public/images/store_logo.png">
+                    </a>
+                </div>
+                <div id="headerShortcuts" class="ui-buttonset">
+                    <a href="http://everthreadsandbox.com/shopping_cart.php">
+                        <span>CART CONTENTS</span>
+                    </a>
+                    <a href="http://everthreadsandbox.com/checkout_shipping.php">
+                        <span>CHECKOUT</span>
+                    </a>
+                    <a href="http://everthreadsandbox.com/account.php">
+                        <span>MY ACCOUNT</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <main class="container-fluid">
+            <div class="row">       
+               
+                <div class="col-md-6 col-md-offset-1 text-center product-view">
+                    <img id="product" src="public/images/products/original.png" />                    
+                </div>
+                
+                <div class="col-md-4 customization-view">
+                    <img id="love" class="favorite-heart" src="public/images/love1.png">
+                    <h2>Custom Kitchen</h2>
+                    <br>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus vestibulum diam ac semper. Sed ullamcorper porttitor
+                        dignissim. 
+                    </div>
+                    <br>
+                    <br>
+                    <div class="tab-panel">
+                        <ul class="nav nav-tabs flex-container">
+                            <li class="active">
+                                <a href="#backsplash">Backsplash</a>
+                            </li>
+                            <li>
+                                <a href="#cabinet">Cabinets</a>
+                            </li>
+                            <li>
+                                <a href="#flooring">Flooring</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <!-- Backsplash SELECTIONS PANEL -->
+                            <div id="backsplash" class="tab-pane fade in active">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o3" data-color="1" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash1black.png">
+                                    </div>
+                                    
+                                    <div data-target="o3" data-color="2" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash1white.png">
+                                    </div>
+                                    
+                                    <div data-target="o3" data-color="3" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash2black.png">
+                                    </div>
+                                    <div data-target="o3" data-color="4" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash2white.png">
+                                    </div>
+                                    <div data-target="o3" data-color="5" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash3blackj.png">
+                                    </div>
+                                    <div data-target="o3" data-color="6" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash3white.png">
+                                    </div>
+                                    <div data-target="o3" data-color="7" class="item-color-option">
+                                        <img src="public/images/Backsplash/Backsplash4.png">
+                                    </div>
+                                    <div data-target="o3" data-color="8" class="item-color-option">
+                                        <img src="public/images/Backsplash/BacksplashOriginalblack.png">
+                                    </div>
+                                    <div data-target="o3" data-color="9" class="item-color-option active">
+                                        <img src="public/images/Backsplash/BacksplashOriginalwhite.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Cabinet SELECTIONS PANEL -->
+                            <div id="cabinet" class="tab-pane fade">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o2" data-color="1" class="item-color-option">
+                                        <img src="public/images/Cabinet/CabinetBlack.png">
+                                    </div>
+
+                                    <div data-target="o2" data-color="2" class="item-color-option">
+                                        <img src="public/images/Cabinet/CabinetEspresso.png">
+                                    </div>
+                                    <div data-target="o2" data-color="3" class="item-color-option">
+                                        <img src="public/images/Cabinet/CabinetRed.png">
+                                    </div>
+                                    <div data-target="o2" data-color="4" class="item-color-option active">
+                                        <img src="public/images/Cabinet/CabinetOriginal.png">
+                                    </div>
+                                 
+                                </div>
+                            </div>
+
+                            <!-- flooring SELECTIONS PANEL -->
+                            <div id="flooring" class="tab-pane fade">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o1" data-color="2" class="item-color-option">
+                                        <img src="public/images/Floor/lightbrown.png">
+                                    </div>
+                                
+                                    <div data-target="o1" data-color="4" class="item-color-option">
+                                        <img src="public/images/Floor/gray.png">
+                                    </div>
+                                
+                                    <div data-target="o1" data-color="6" class="item-color-option">
+                                        <img src="public/images/Floor/brown.png">
+                                    </div>
+                                    <div data-target="o1" data-color="8" class="item-color-option active">
+                                        <img src="public/images/Floor/floor_original.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- end .tab-content -->
+                    </div><!-- end .tab-panel -->
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="public/js/kitchen_demo.js"></script>
+    
+</body>
+
+</html>
