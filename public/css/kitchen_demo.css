@@ -119,22 +119,22 @@ img#product {
 
 .item-color-option {    
     display: inline-block;
-    height: 50px;
-    width: 50px;  
+    height: 55px;
+    width: 55px;  
     margin: 5px;
     cursor: pointer;
     border: 2px solid #fff;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
 }
 
 .item-color-option img {  
     width: 100%;
     height: auto;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
 }
 
 .item-color-option.active {
